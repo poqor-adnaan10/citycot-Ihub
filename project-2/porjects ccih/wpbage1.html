@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+<style>
+body {
+    background-color:#1d2d44;
+}
+.navbar {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            background-color:#000505;
+            padding: 15px;
+            border-radius: 20px;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #ccd5ae;
+            border-radius: 5px;
+        }
+        h1 {
+            display: flex;
+            justify-content: right;
+        }
+
+
+        .greeting {
+            color: white;
+            font-size: 25px;
+            flex: auto;
+            padding: 10px 15px;
+        }
+       
+        
+ 
+
+
+
+
+
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+           
+        }
+
+.box {
+            background: #e9edc9;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            flex: 1;
+            min-width: 300px; 
+            max-width: 48%; 
+            box-sizing: content-box;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+
+        form {
+            background: #e9edc9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+            width: 500px;
+        }
+
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+
+        input, textarea {
+            width: 480px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+
+        button {
+            background-color: #9edc9e;
+            color: #000505;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+
+        button:hover {
+            background-color: #a7ac81;
+        }
+
+
+footer {
+    text-align: center;
+    background-color: #fefcfd;
+       color: #000505;
+}
+
+</style>
+</head>
+<body>
+    <nav>
+        
+    <nav class="navbar">
+        <div class="greeting"> ADNAAN</div>
+       <a href="#about">About Me</a>
+       <a href="#skills">Skills</a>
+       <a href="#education">Education</a>
+       <a href="#experience">Experience</a>
+       <a href="#projects">Projects</a>
+      <a href="#articles">Articles I Wrote</a>
+      <a href="#contact">contact me</a>
+    </nav>
+</nav>
+<div class="container">
+    <div id="about" class="box">
+        <h2>About Me</h2>
+        <p>I am a student at CityCot University in Bosaso.I am an active student who always loves to create new things. I hope to achieve great success in web development in the coming years.</p>
+    
+    </div>
+
+    <div id="skills" class="box">
+        <h2>Skills</h2>
+        <p>HTML, JAVA SCRIPT, CSS ,C++, PYTHON</p>
+    </div>
+
+
+    <div id="education" class="box">
+        <h2>Education</h2>
+        <h5>citycot University</h5>
+        <p>January 2022 to May 2023 B.S. in Computer Science - Focused on software engineering, data management, and IoT.</p>
+    </div>
+
+
+    <div id="experience" class="box">
+        <h2>Experience</h2>
+        <p> March 2022 to Present
+            <ul>
+            <li>Built web pages using HTML and CSS for simple layouts.</li>
+            <li>Styled components and content for responsive design across devices.</li>
+            <li>Assisted in updating website content and fixing layout issues.</li>
+            </ul>
+            <h5>Citycot Innovation Hub - Intern</h5>
+            August 2019 - March 2022
+            <ul>
+            <li> Developed several basic Android applications.</li>
+            <li>Participated in projects and collaborated with a team on frontend design.</li>
+            <li>Mentored junior developers and innovation students in foundational programming skills.</li>
+            </ul>
+                </p>
+    </div>
+
+
+    <div id="projects" class="box">
+        <h2>Projects</h2>
+        <p>
+    <h5>Personal Portfolio</h5>
+    <ul>
+    <li>Developed a personal portfolio to showcase my work and skills.</li>
+    <li>Used HTML, CSS, and JavaScript to create an interactive experience</li>
+    </ul>
+    <h4>Citycot Innovation Hub - Task Manager Project</h4>
+    <ul>
+    <li>Created a task manager application to help students and teams share tasks and collaborate.</li>
+    <li>Designed using HTML, CSS, and JavaScript for a simple and interactive interface.</li>
+    </ul>
+        </p>
+    </div>
+
+
+
+<div id="articles" class="box">
+    <h2>Articles I Wrote</h2>
+    <p>
+        <ul>
+<li>The Future of Web Development</li>
+<li>Understanding React Hooks</li>
+        </ul>
+    </p>
+</div>
+</div>
+
+  
+
+<form action="#" method="post">
+    <h2>Contact Me</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+
+
+
+
+
+<footer>
+    <p>© 2023 @iHub   Address : bosaso   Contact us : 2222</p> 
+</footer>
+
+
+
+</body>
+</html>
