@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Registration</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+            <!-- Doctor Registration Form -->
+           <!-- card 1 -->
+      <div class="card">
+        <div class="card-header">
+           <h3>add doctors</h3>
+        </div>
+          <div class="card-body">
+           <form>
+         <div class="row g-3 mb-4">
+<!--  -->
+            <div class="col-md-4">
+                <label for="Full Name">Full Name</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" class="form-control" placeholder="enter full name">
+                </div>
+            </div>
+        
+  
+<!--  -->
+            <div class="col-md-4">
+                <label for="email">email</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" class="form-control" placeholder="enter email">
+                </div>
+            </div>
+
+
+<!--  -->
+            <div class="col-md-4">
+                <label for="title">title</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-suitcase"></i></span>
+                    <input type="text" class="form-control" placeholder="enter title">
+                </div>
+            </div>
+
+<!--  -->
+            <div class="col-md-4">
+                <label for="departmant">departmant</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-building"></i></span>
+                   <select id="departmant" class="form-select">
+                    <option>cardiology</option>
+                    <option>neurology</option>
+                    <option>orthopedics</option>
+                   </select>
+                 </div>
+            </div>
+
+<!--  -->
+            <div class="col-md-4">
+                <label for="experince">experince</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-suitcase"></i></span>
+                    <input type="text" class="form-control" placeholder="enter experince years">
+                </div>
+            </div>
+
+<!--  -->
+<div class="col-md-4">
+    <label for="contact number">contact number</label>
+    <div class="input-group">
+        <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+        <input type="number" class="form-control" placeholder="enter contact number">
+    </div>
+</div>
+
+<!--  -->
+<div class="col-md-4">
+    <label for="edegre">degree</label>
+    <div class="input-group">
+        <span class="input-group-text"></span>
+        <input type="text" class="form-control" placeholder="enter degre">
+    </div>
+</div>
+
+<!--  -->
+<div class="col-md-4">
+    <label for="fees">fees</label>
+    <div class="input-group">
+        <span class="input-group-text"><i class="fa-solid fa-dollar-sign"></i></span>
+        <input type="text" class="form-control" placeholder="enter fess">
+    </div>
+</div>
+
+<!--  -->
+<div class="col-md-4">
+    <label for="title">title</label>
+    <div class="input-group">
+        <span class="input-group-text"><i class="fa-solid fa-camera"></i></span>
+        <input type="file" class="form-control">
+    </div>
+</div>
+
+
+                <!--buttons  -->
+
+                <div class="row g-3 mb-4">
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-danger w-100">delete <i class="fas fa-save"></i></button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-warning w-100">update <i class="fas fa-trash"></i></button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-success w-100">Save <i class="fas fa-pen"></i></button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-info w-100">Search <i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+
+         </div>
+           </form>
+          </div>
+
+      </div>   
+
+            <!--card 2  -->
+<div class="card">
+<div class="card-header">
+<h3>list of doctors</h3>
+</div>
+<div class="card-body">
+    <!-- table -->
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">name</th>
+            <th scope="col">email</th>
+            <th scope="col">departmant</th>
+            <th scope="col">experiance</th>
+            <th scope="col">contact</th>
+            <th scope="col">fees</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>adnaan</td>
+            <td>adnaan@gmail.com</td>
+            <td>cardiology</td>
+            <td>100y</td>
+            <td>1111111111</td>
+            <td>9000$</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>adnaan</td>
+            <td>adnaan@gmail.com</td>
+            <td>cardiology</td>
+            <td>100y</td>
+            <td>1111111111</td>
+            <td>9000$</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+</div>
+</body>
+
+</html>
