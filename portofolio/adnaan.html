@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <style>
+    body {
+    font-family: Arial, sans-serif;
+    /* background-color: #e0e1dd; */
+}
+
+#home {
+    position: relative;
+    padding: 50px 0;
+    /* background-color: #f8f9fa; */
+}
+
+.home-image {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    right: 20px; /* Adjust this value to position the image */
+    top: 20px; /* Adjust this value to position the image */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+#projects {
+    padding: 20px;
+}
+.card {
+    border: none; /* Remove card border */
+    transition: transform 0.2s; /* Add transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up card on hover */
+}
+#img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#home {
+    height: 400px;
+}
+#h1 {
+  align-items: start;
+}
+#div1 {
+   
+    height: 300px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+}
+   </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-primery bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a class="nav-link " href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav nav-primery" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="text-center bg-light" id="div1">
+        <h1 id="hi">Welcome to My Portfolio</h1><br><br>
+        <!-- <img src="img/adnaan.png" alt="A description of the image" class="home-image img-fluid" id="img"> -->
+    </div>
+    </section><br>
+
+
+    <section id="section1">
+        <!-- <img src="img/adnaan.png" alt="A description of the image" class="home-image img-fluid" id="img"> -->
+    </section>
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate developer with experience in various technologies. I love creating web applications and learning new skills. My journey in tech started with a fascination for coding, and it has grown into a full-fledged career.</p>
+    </section>
+
+    <!-- new projects -->
+     <!-- Projects Section -->
+     <section id="projects" class="container text-center">
+        <h2>My Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="project-1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Description of Project 1.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="project-2.jpg" class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Description of Project 2.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="project-3.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Description of Project 3.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="container text-center">
+    <h2>Contact Me</h2>
+    <form>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+
+        <!--  footer section -->
+    <footer class="text-center py-4">
+        <p>&copy; adnaan 2025</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
